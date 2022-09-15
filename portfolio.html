@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" id="page_style"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="functions.js"></script>
+
+    <ul class="navback">
+        <li><a href="service.html">Service</a></li>
+        <li><a href="qualifications.html">Qualifications</a></li>
+        <li><a href="portfolio.html">Projects</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+
+    <div class="contentblock">
+        <h1>Projects</h1>
+        <h3 class="projects">PhilSA Points Tracker (PPT)</h3>
+        <p class="p2">
+            Currently, I am working on this project with a couple of friends! We got this idea because the secretary of the Phillipine Student Association had to manually input points for 350+ members everytime they 
+            went to a club event. This caused eligibility requirement notices to come out later than expected. So, our plan is to get the points straight from Google Forms and input them automatically to Google Sheets. 
+            To implement this project, we are using Google Apps Script, Javascript, HTML, and CSS.
+        </p>
+
+        <h3 class="projects">Space Invaders (SI)</h3>
+        <p class="p2">
+            This was a project I worked on over Summer 2022. Space Invaders is a popular shoot 'em
+            up arcade game. It has very simple UI with pretty basic features. One of my favorite parts of working 
+            on this project was using the Pygame library. Pygame is a library with modules that help support
+            the game design process. For example, it made calculating for pixel collisions really simple with the mask function, 
+            and allowed me to draw sprites on the screen with ease. Lastly, I employed Pyinstaller to bundle 
+            my Python application and all of its dependencies into a single package for Windows and Linux operating systems.
+            To implement this project, I used Python and Pygame.
+        </p>
+        
+        <h3 class="projects">React Apps (RA)</h3>
+        <p class="p2">
+            During the Spring semester of 2022, I joined a learning based project team called React Apps. This 
+            group was formed from members of the Aggie Coding Club. During this time, we met every week and learned
+            how to code with HTML, CSS, and Javascript through CodeAcademy. To solidify our knowledge, we created 
+            simple websites with the respective languages. To build teamwork, we engaged in discussions about how our week 
+            went and our career goals. This promoted camaraderie within the team and motivated us to keep out with the material assigned to us.
+            Sadly, we couldn't dive deep into React as intended, but I had a great time learning with this team!
+        </p>
+
+        <h3 class="projects">Links to Projects!</h3>
+            <button class="btn2"><i class="fa fa-github"></i><a class="links" href="https://github.com/nathanhtkd/PhilSAPointTracker">  PPT</a></button>
+            <button class="btn2"><i class="fa fa-github"></i><a class="links" href="https://github.com/nathanhtkd/SpaceInvaders">  SI</a></button>
+            <button class="btn2"><i class="fa fa-github"></i><a class="links" href="https://github.com/nathanhtkd/HTMLProjects">  RA</a></button>
+            <br>
+            <br>
+            <p class="p2">Click here to change the webpage style!</p> <br> <br> <br>
+            <button class="stylebuttons" onclick='mono_mode()'>Monotone </button>
+            <button class="stylebuttons" onclick='red_mode()'>Bright Red</button>
+    </div>
+
+</body>
+</html>

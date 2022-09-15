@@ -1,0 +1,233 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f08080;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -70px;
+    padding: 0;
+    width: 200px;
+    background-color: #e6a4a4;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.contentblock {
+    margin-left: 200px;
+    width: 60%;
+    margin: auto;
+    /* border: 5px solid green; */
+    padding: 50px;
+    margin-top: 70px;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    float: left;
+    width: 100%;
+    /* border: 5px solid green; */
+}
+
+img {
+    float: right;
+    height: 500px;
+    width: auto;
+    /* border: 5px solid green; */
+}
+    
+.color img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+
+.color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+
+p {
+    font-weight: 900;
+    float: left;
+    /* border: 5px solid green; */
+    width: 55%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.p2{
+    width: 100%;
+    font-weight: 900;
+    float: left;
+    /* border: 5px solid green; */
+    margin-top: 10px;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    cursor: pointer;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 14px;    
+    width: 10em;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right,#3ec7e0,#526bf4);
+}
+
+.btn2 {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    width: 10em;
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    cursor: pointer;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 14px;    
+}
+
+.btn2:hover {
+    background-image: linear-gradient(to right,#3ec7e0,#526bf4);
+}
+
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.projects {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+.html {
+    width: 40%; 
+    background-color: #1d3029;
+    margin-top: 35px;
+}
+
+.css {
+    width: 25%; 
+    background-color: #6364a3;
+    margin-top: 35px;
+}
+
+.python {
+    width: 50%; 
+    background-color: #cc3333;
+    margin-top: 35px;
+}
+
+.cpp {
+    width: 70%; 
+    background-color: #53e568;
+    margin-top: 50px;
+}
+  
+.java {
+    width: 50%; 
+    background-color: #6e3b00;
+    margin-top: 35px;
+}
+
+.areaofinterest {
+    width: 100%;
+}
+
+#tkdpic {
+    height : 300px;
+    width: auto;
+    float: right;
+    margin-top: 50px;
+    margin-right: 40%;
+}
+
+.stylebuttons {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    width: 10em;
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    cursor: pointer;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 14px;   
+    float: left;
+    margin-right: 5px;
+}
+
+.stylebuttons:hover {
+    background-image: linear-gradient(to right,#3ec7e0,#526bf4);
+}
+
+.navback {
+    background-image: linear-gradient(rgba(120, 123, 133, 0.596), rgba(227, 232, 255, 0.596)) ,url("navbackground.jpg");
+}
